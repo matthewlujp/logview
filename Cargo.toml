@@ -1,0 +1,8 @@
+[package]
+name = "logview"
+version = "0.1.0"
+authors = ["Matthew Ishige <matthewlujp@gmail.com>"]
+
+[dependencies]
+clap = {version = "2.27", features = ["yaml"]}
+chrono = "0.4"

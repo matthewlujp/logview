@@ -1,0 +1,13 @@
+name: logview
+version: "0.0"
+author: Matthew L. <matthewlujp@gmail.com>
+about: Enable you to see terminal log in vim
+subcommands:
+    - start:
+        about: start logging termial
+        args:
+            - file_name:
+                short: f
+                help: Log file name
+    - history:
+        about: view history in vim
